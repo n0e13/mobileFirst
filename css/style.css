@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+}
+
+header, nav, section, aside, footer {
+    padding: 5px 15px;
+}
+
+header {
+    background-color: #03a9f4;
+}
+
+aside {
+    background-color: rebeccapurple;
+}
+
+nav {
+    background-color: red;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+}
+
+section {
+    background-color: green;
+}
+
+footer {
+    background-color: gray;;
+}
+
+/* Tablets*/
+@media screen and (min-width: 820px) {
+    main {
+        flex-direction: row;   
+    }
+}
+
+ /* Desketop */
+@media screen and (min-width: 1024px) {
+    main {
+      flex-direction: row;
+      margin: 0% 10%;
+    }
+} 

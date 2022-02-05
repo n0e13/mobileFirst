@@ -1,7 +1,7 @@
 body {
     background-color: black;
     display: flex;
-    min-height: 100vh; /* Footer abajo */
+    min-height: 100vh;
     flex-direction: column;
 }
 
@@ -24,6 +24,7 @@ nav {
 main {
     display: flex;
     flex-direction: column;
+    
 }
 
 section {

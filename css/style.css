@@ -1,5 +1,8 @@
-body{
+body {
     background-color: black;
+    display: flex;
+    min-height: 100vh; /* Footer abajo */
+    flex-direction: column;
 }
 
 header, nav, section, aside, footer {
@@ -21,7 +24,6 @@ nav {
 main {
     display: flex;
     flex-direction: column;
-    margin: 0%;
 }
 
 section {
@@ -29,20 +31,22 @@ section {
 }
 
 footer {
-    background-color: gray;;
+    background-color: gray;
 }
 
 /* Tablets*/
 @media screen and (min-width: 820px) {
     main {
-        flex-direction: row;   
+        flex-direction: row;
+        flex: 1;
     }
 }
 
- /* Desketop */
+/* Desketop */
 @media screen and (min-width: 1024px) {
     main {
-      flex-direction: row;
-      margin: 0% 10%;
+        flex-direction: row;
+        margin: 0% 10%;
+        flex: 1;
     }
-} 
+}
